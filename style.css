@@ -1,3 +1,96 @@
-p {
-    color: red;
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url("fonts/OpenSans-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("fonts/OpenSans-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.surface {
+    background-image: url("images/football_767.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #0D0D31;
+
+    position: relative;
+    width: 90vw;
+}
+
+.surface::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0D0D31;
+    opacity: 0.9;
+}
+
+.surface-container {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.surface-logo {
+    width: 41.6%;
+    height: 7.5%;
+    padding-top: 6.25%;
+    padding-right: 29.2%;
+    padding-left: 29.2%;
+    color: #ffffff;
+}
+
+.surface-slogan {
+    font-family: OpenSans-Bold, Tahoma, sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 130px;
+}
+
+.surface-cheer {
+    padding-left: 19px;
+    padding-right: 93px;
+    margin-bottom: 30px;
+}
+
+.surface-title {
+    padding-left: 64px;
+    padding-right: 40px;
+}
+
+.store-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 87px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.store-text {
+    font-family: OpenSans-Regular, Tahoma, sans-serif;
+    font-size: 8px;
+    text-transform:uppercase;
+    color: #ffffff;
+}
+
+.store-play {
+    font-weight: 700;
+}
+
+.button-store {
+    width: 280px;
+    height: 35px;
+    border-radius: 16.73px 16.81px 18.19px 17.17px;
+    border: none;
+    background-color: #5e42b0;
 }
