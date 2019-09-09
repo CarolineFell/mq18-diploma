@@ -1,15 +1,25 @@
 @font-face {
+    font-family: OpenSans-Regular;
+    src: url("fonts/OpenSans-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
     font-family: OpenSans-Bold;
     src: url("fonts/OpenSans-Bold.ttf");
     font-weight: 700;
     font-style: normal;
 }
 
-@font-face {
-    font-family: OpenSans-Regular;
-    src: url("fonts/OpenSans-Regular.ttf");
-    font-weight: 400;
-    font-style: normal;
+html {
+    font-size: 62.5%;
+    color: #ffffff;
+    font-family: OpenSans-Regular, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0px;
 }
 
 .surface {
@@ -17,80 +27,84 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-color: #0D0D31;
-
-    position: relative;
-    width: 90vw;
+    background-color: #0a0e34;
+    height: 100vh;
 }
 
-.surface::after {
+.surface:after {
     content: "";
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #0D0D31;
+    background-color: #0a0e34;
     opacity: 0.9;
 }
 
 .surface-container {
     position: relative;
     z-index: 1;
-    margin: 0 auto;
 }
 
 .surface-logo {
-    width: 41.6%;
-    height: 7.5%;
-    padding-top: 6.25%;
-    padding-right: 29.2%;
-    padding-left: 29.2%;
-    color: #ffffff;
-}
-
-.surface-slogan {
-    font-family: OpenSans-Bold, Tahoma, sans-serif;
-    font-size: 28px;
-    color: #ffffff;
-    text-transform: uppercase;
-    padding-top: 130px;
-}
-
-.surface-cheer {
-    padding-left: 19px;
-    padding-right: 93px;
-    margin-bottom: 30px;
+    display: block;
+    background-image: url("svg/surface_logo_text.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 133px;
+    height: 36px;
 }
 
 .surface-title {
-    padding-left: 64px;
-    padding-right: 40px;
+    font-size: 28px;
+    font-family: OpenSans-Bold, Tahoma, sans-serif;
+    text-transform: uppercase;
 }
 
 .store-buttons {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 87px;
-    padding-left: 20px;
-    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-.store-text {
-    font-family: OpenSans-Regular, Tahoma, sans-serif;
-    font-size: 8px;
-    text-transform:uppercase;
-    color: #ffffff;
-}
-
-.store-play {
-    font-weight: 700;
-}
-
-.button-store {
+.store-button {
+    background-color: #5e42b0;
     width: 280px;
     height: 35px;
-    border-radius: 16.73px 16.81px 18.19px 17.17px;
     border: none;
-    background-color: #5e42b0;
+    border-radius: 16.73px 16.81px 18.19px 17.17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+    font-size: 8px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.store-button:nth-child(even) {
+    margin-top: 12px;
+}
+
+.store {
+    font-family: OpenSans-Bold, Tahoma, sans-serif;
+}
+
+.store-icon {
+    fill: #ffffff;
+    margin-right: 8px;
+}
+
+.app-store {
+    width: 20px;
+    height: 24px;
+}
+
+.google-play {
+    width: 22px;
+    height: 24px;
 }
