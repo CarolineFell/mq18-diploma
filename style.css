@@ -14,7 +14,7 @@
 
 html {
     font-size: 62.5%;
-    color: #ffffff;
+    color: #000000;
     font-family: OpenSans-Regular, Tahoma, sans-serif;
 }
 
@@ -22,7 +22,7 @@ body {
     margin: 0px;
 }
 
-.surface {
+.surface-header {
     background-image: url("images/football_767.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -31,7 +31,7 @@ body {
     height: 100vh;
 }
 
-.surface:after {
+.surface-header:after {
     content: "";
     position: absolute;
     top: 0;
@@ -61,6 +61,7 @@ body {
     font-size: 28px;
     font-family: OpenSans-Bold, Tahoma, sans-serif;
     text-transform: uppercase;
+    color: #ffffff;
 }
 
 .store-buttons {
@@ -92,6 +93,7 @@ body {
 
 .store {
     font-family: OpenSans-Bold, Tahoma, sans-serif;
+    color: #ffffff;
 }
 
 .store-icon {
@@ -108,3 +110,44 @@ body {
     width: 22px;
     height: 24px;
 }
+
+.article-header {
+    font-family: OpenSans-Bold, Tahoma, sans-serif;
+    font-size: 5em;
+    text-transform: uppercase;
+    color: #e7e7e7;
+}
+
+.text-name {
+    font-family: OpenSans-Bold, Tahoma, sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #c1c1c1;
+}
+
+.step-name {
+    font-family: OpenSans-Bold, Tahoma, sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #c1c1c1;
+}
+
+.surface-footer {
+    background-image: url("images/game_767.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #0a0e34;
+    height: 100vh;
+}
+
+/*.surface-footer:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0a0e34;
+    opacity: 0.9;
+}/*
