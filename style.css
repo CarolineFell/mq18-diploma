@@ -13,7 +13,7 @@
 }
 
 html {
-    font-size: 93.75%;
+    font-size: 62.5%;
     color: #000000;
     font-family: OpenSans-Regular, Tahoma, sans-serif;
 }
@@ -100,14 +100,13 @@ body {
     z-index: 1;
 }
 
-.surface-logo {
-    display: block;
-    background-image: url("svg/surface_logo_text.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+.surface-logo-link {
     width: 133px;
     height: 36px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .surface-title {
@@ -183,11 +182,20 @@ body {
     height: 24px;
 }
 
-.article-header {
+.article-name {
     font-family: OpenSans-Bold, Tahoma, sans-serif;
     font-size: 50px;
     text-transform: uppercase;
     color: #e7e7e7;
+    margin-top: 25px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.article-athlet {
+    position: relative;
+    z-index: 1;
 }
 
 .footballer {
@@ -200,7 +208,7 @@ body {
 }
 
 .basketballer {
-    background-image: url("images/basketballer_436.png");
+    background-image: url("images/basketballer_302.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -208,11 +216,44 @@ body {
     height: 248px;
 }
 
+.article-text-list {
+    list-style-type: decimal-leading-zero;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.article-text {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
 .text-name {
     font-family: OpenSans-Bold, Tahoma, sans-serif;
     font-size: 23px;
     text-transform: uppercase;
     color: #c1c1c1;
+    padding-bottom: 25px;
+    margin: 0px;
+}
+
+.text-container {
+    font-size: 93.75%;
+}
+
+.connection {
+    background-color: #fafafa;
+}
+
+.collaboration {
+    background-color: #f5f4f9;
+}
+
+.growth {
+    background-color: #5e42b0;
+}
+
+.text-container {
+    margin: 0px;
 }
 
 .step-name {
