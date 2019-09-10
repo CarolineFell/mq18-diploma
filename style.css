@@ -13,7 +13,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 93.75%;
     color: #000000;
     font-family: OpenSans-Regular, Tahoma, sans-serif;
 }
@@ -185,7 +185,7 @@ body {
 
 .article-header {
     font-family: OpenSans-Bold, Tahoma, sans-serif;
-    font-size: 5em;
+    font-size: 50px;
     text-transform: uppercase;
     color: #e7e7e7;
 }
