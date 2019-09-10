@@ -32,6 +32,58 @@ body {
     height: 100vh;
 }
 
+@media (min-width: 767px) and (max-width: 1280px) {
+    .surface-header {
+        background-image: url("images/football_1280.jpg");
+    }
+
+    .footballer {
+        background-image: url("images/footballer_566.png");
+    }
+
+    .basketballer {
+        background-image: url("images/basketballer_991.png");
+    }
+
+    .active {
+        background-image: url("images/be-active_960.jpg");
+    }
+
+    .contact {
+        background-image: url("images/find-contact_960.jpg");
+    }
+
+    .work {
+        background-image: url("images/work-it_960.jpg")
+    }
+
+    .surface-footer {
+        background-image: url("images/game_1280.jpg");
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1280px) {
+    .surface-header {
+        background-image: url("images/football_1920.jpg");
+    }
+
+    .active {
+        background-image: url("images/be-1024.jpg");
+    }
+
+    .contact {
+        background-image: url("images/find-contact_1024.jpg");
+    }
+
+    .work {
+        background-image: url("images/work-it_1024.jpg")
+    }
+
+    .surface-footer {
+        background-image: url("images/game_1920.jpg");
+    }
+}
+
 .surface-header:after {
     content: "";
     position: absolute;
@@ -63,6 +115,16 @@ body {
     font-family: OpenSans-Bold, Tahoma, sans-serif;
     text-transform: uppercase;
     color: #ffffff;
+    padding-top: 133px;
+}
+
+.surface-cheer {
+    padding-left: 20px;
+}
+
+.surface-slogan {
+    padding-top: 26px;
+    padding-left: 63px;
 }
 
 .store-buttons {
@@ -70,6 +132,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 86px;
 }
 
 .store-button {
@@ -92,13 +155,21 @@ body {
     margin-top: 12px;
 }
 
+.store-button:focus {
+    outline: none;
+    border: 1px groove #412a6b;
+}
+
+.store-button:hover {
+    background-color: #412a6b;
+}
+
 .store {
     font-family: OpenSans-Bold, Tahoma, sans-serif;
     color: #ffffff;
 }
 
 .store-icon {
-    fill: #ffffff;
     margin-right: 8px;
 }
 
