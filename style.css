@@ -32,58 +32,6 @@ body {
     height: 100vh;
 }
 
-@media (min-width: 767px) and (max-width: 1280px) {
-    .surface-header {
-        background-image: url("images/football_1280.jpg");
-    }
-
-    .footballer {
-        background-image: url("images/footballer_566.png");
-    }
-
-    .basketballer {
-        background-image: url("images/basketballer_991.png");
-    }
-
-    .active {
-        background-image: url("images/be-active_960.jpg");
-    }
-
-    .contact {
-        background-image: url("images/find-contact_960.jpg");
-    }
-
-    .work {
-        background-image: url("images/work-it_960.jpg")
-    }
-
-    .surface-footer {
-        background-image: url("images/game_1280.jpg");
-    }
-}
-
-@media (min-width: 767px) and (max-width: 1280px) {
-    .surface-header {
-        background-image: url("images/football_1920.jpg");
-    }
-
-    .active {
-        background-image: url("images/be-1024.jpg");
-    }
-
-    .contact {
-        background-image: url("images/find-contact_1024.jpg");
-    }
-
-    .work {
-        background-image: url("images/work-it_1024.jpg")
-    }
-
-    .surface-footer {
-        background-image: url("images/game_1920.jpg");
-    }
-}
-
 .surface-header:after {
     content: "";
     position: absolute;
@@ -216,6 +164,12 @@ body {
     height: 248px;
 }
 
+.article-text-list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
 .article-text {
     max-width: 100vw;
     box-sizing: border-box;
@@ -223,6 +177,30 @@ body {
     padding-right: 19px;
     padding-bottom: 50px;
     padding-left: 19px;
+}
+
+.article-text:nth-child(3n+1) {
+    background-color: #fafafa;
+}
+
+.article-text:nth-child(3n+2) {
+    background-color: #f5f4f9;
+}
+
+.article-text:nth-child(3n+3) {
+    background-color: #5e42b0;
+}
+
+li.article-text:nth-child(3n+3) p.text-container  {
+    color: #ffffff
+}
+
+li.article-text + li.growth {
+    background-color: #090c35;
+}
+
+li.growth span.text-number {
+    color: #8765dd;
 }
 
 .text-name {
@@ -238,26 +216,12 @@ body {
     display: flex;
 }
 
-.connection {
-    background-color: #fafafa;
-}
-
-.collaboration {
-    background-color: #f5f4f9;
-}
-
-.growth {
-    background-color: #5e42b0;
-}
-
 .text-number {
     font-size: 14px;
     font-family: OpenSans-Bold, Tahoma, sans-serif;
     margin-top: 2px;
     margin-right: 10px;
 }
-/* И тут возник вопрос, что, наверное, с точки зрения браузера он не будет делить статьи на разделы, 
-а будет зачитывать в режиме для слабовидящих разметку неправильно? */
 
 .text-number::after {
     content: "";
@@ -269,7 +233,7 @@ body {
     margin: 0 auto;
 }
 
-.text-number:nth-child(n+3) span::after {
+li.article-text:nth-child(n+3) span.text-number::after {
     content: "";
     display: block;
     width: 15px;
@@ -331,4 +295,56 @@ body {
     left: 0;
     background-color: #0a0e34;
     opacity: 0.9;
-}/*
+}*/
+
+@media (min-width: 767px) and (max-width: 1280px) {
+    .surface-header {
+        background-image: url("images/football_1280.jpg");
+    }
+
+    .footballer {
+        background-image: url("images/footballer_566.png");
+    }
+
+    .basketballer {
+        background-image: url("images/basketballer_991.png");
+    }
+
+    .active {
+        background-image: url("images/be-active_960.jpg");
+    }
+
+    .contact {
+        background-image: url("images/find-contact_960.jpg");
+    }
+
+    .work {
+        background-image: url("images/work-it_960.jpg")
+    }
+
+    .surface-footer {
+        background-image: url("images/game_1280.jpg");
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1280px) {
+    .surface-header {
+        background-image: url("images/football_1920.jpg");
+    }
+
+    .active {
+        background-image: url("images/be-1024.jpg");
+    }
+
+    .contact {
+        background-image: url("images/find-contact_1024.jpg");
+    }
+
+    .work {
+        background-image: url("images/work-it_1024.jpg")
+    }
+
+    .surface-footer {
+        background-image: url("images/game_1920.jpg");
+    }
+}
