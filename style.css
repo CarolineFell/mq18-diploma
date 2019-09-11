@@ -147,19 +147,11 @@ body {
 }
 
 .footballer {
-    background-image: url("images/footballer_497.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     width: 192px;
     height: 281px;
 }
 
 .basketballer {
-    background-image: url("images/basketballer_302.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     width: 302px;
     height: 248px;
 }
