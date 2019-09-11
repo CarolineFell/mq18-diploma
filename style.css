@@ -47,6 +47,7 @@ body {
 .surface-container {
     position: relative;
     z-index: 1;
+    height: 100vh;
 }
 
 .surface-logo {
@@ -57,6 +58,7 @@ body {
     width: 133px;
     display: flex;
     margin: 0 auto;
+    padding-top: 30px; 
 }
 
 .surface-title {
@@ -64,7 +66,9 @@ body {
     font-family: OpenSans-Bold, Tahoma, sans-serif;
     text-transform: uppercase;
     color: #ffffff;
-    padding-top: 133px;
+    padding-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .surface-cheer {
@@ -72,8 +76,12 @@ body {
 }
 
 .surface-slogan {
-    padding-top: 26px;
+    padding-top: 15px; /*задала вместо 30px 15px, потому что иначе слишком расползается текст*/
     padding-left: 63px;
+}
+
+.store-buttons {
+    padding-top: 86px;
 }
 
 .button-link {
@@ -87,7 +95,7 @@ body {
 .store-button {
     background-color: #5e42b0;
     width: 87.5%;
-    height: 6%;
+    height: 35px; /*почему-то он "не слышит" процент для высоты*/
     border: none;
     border-radius: 16.73px 16.81px 18.19px 17.17px;
     display: flex;
