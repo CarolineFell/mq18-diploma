@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: OpenSans-Light;
+    src: url("fonts/open-sans-light_[allfont.ru].ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
 html {
     font-size: 93.75%;
     color: #000000;
@@ -76,7 +83,7 @@ body {
 }
 
 .surface-slogan {
-    padding-top: 4.7%; /*задала вместо 30px 15px, потому что иначе слишком расползается текст*/
+    padding-top: 4.7%;
     padding-left: 19%;
 }
 
@@ -215,7 +222,6 @@ li.growth span.text-number {
     font-size: 1.53em;
     text-transform: uppercase;
     color: #c1c1c1;
-    padding-bottom: 25px;
     margin: 0px;
 }
 
@@ -224,9 +230,9 @@ li.growth span.text-number {
 }
 
 .text-number {
-    font-size: 14px;
+    font-size: 0.94em;
     font-family: OpenSans-Bold, Tahoma, sans-serif;
-    margin-top: 5.5px;
+    margin-top: 3px;
     margin-right: 10px;
 }
 
@@ -277,7 +283,7 @@ li.article-text:nth-child(n+3) span.text-number::after {
 
 .step-name {
     font-family: OpenSans-Bold, Tahoma, sans-serif;
-    font-size: 28px;
+    font-size: 1.86em;
     text-transform: uppercase;
     color: #c1c1c1;
 }
@@ -293,18 +299,17 @@ div.number span.text-number {
 }
 
 .number {
-    width: 70px;
-    height: 70px;
+    width: 21.875%;
+    height: 4.66rem;
     background-color: #5e42b0;
-    margin-top: -57px;
-    margin-left: 20px;
+    margin-top: -17.8%;
+    margin-left: 6.25%;
 }
 
  .step-text {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 17px;
-    padding-bottom: 70px;
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+    padding-bottom: 21.875%;
     margin: 0px;
  }
 
@@ -329,8 +334,63 @@ div.number span.text-number {
 } */
 
 @media (min-width: 767px) and (max-width: 1280px) {
+    html {
+        font-size: 100%;
+    }
+
     .surface-header {
         background-image: url("images/football_1280.jpg");
+    }
+
+    .surface-logo-link {
+        width: 26.7%;
+    }
+
+    .surface-title {
+        font-size: 4em;
+    }
+
+    .surface-cheer {
+        padding-left: 10.42%;
+    }
+    
+    .surface-slogan {
+        padding-left: 26%;
+    }
+
+    .store-buttons {
+        padding-top: 40%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .button-link {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .store-button {
+        background-color: #5e42b0;
+        width: 40.4%;
+        height: 4.375em;
+        border: none;
+        border-radius: 16.73px 16.81px 18.19px 17.17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-family: OpenSans-Light;
+        color: #ffffff;
+        font-size: 0.875em;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    
+    .button-link:nth-child(even) {
+        margin-top: 3.75%;
     }
 
     .active {
