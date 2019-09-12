@@ -333,7 +333,7 @@ div.number span.text-number {
     opacity: 0.9;
 } */
 
-@media (min-width: 767px) and (max-width: 1280px) {
+@media (min-width: 767px) {
     html {
         font-size: 100%;
     }
@@ -355,7 +355,7 @@ div.number span.text-number {
     }
     
     .surface-slogan {
-        padding-left: 26%;
+        padding-left: 26.7%;
     }
 
     .store-buttons {
@@ -410,7 +410,7 @@ div.number span.text-number {
     }
 }
 
-@media (min-width: 767px) and (max-width: 1280px) {
+@media (min-width: 1279px) {
     .surface-header {
         background-image: url("images/football_1920.jpg");
     }
