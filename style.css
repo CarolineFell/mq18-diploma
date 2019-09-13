@@ -356,12 +356,12 @@ div.number span.text-number {
 
     .store-buttons {
         padding-top: 40%;
-        flex-direction: row;
-        justify-content: space-between;
     }
     
     .button-link {
-        width: 80%;
+        display: inline-block;
+        width: 40.5%;
+        padding-left: 6.5%;
     }
     
     .store-button {
