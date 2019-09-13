@@ -88,7 +88,7 @@ body {
 }
 
 .store-buttons {
-    padding-top: 22%;
+    padding-top: 27%;
 }
 
 .button-link {
@@ -250,7 +250,6 @@ li.article-text:nth-child(n+3) span.text-number::after {
 
 .step-image {
     display: flex;
-    margin: 0 auto;
     width: 100%;
     height: 100%;
 }
@@ -279,7 +278,7 @@ div.number span.text-number {
     background-color: #5e42b0;
     margin-top: -17.8%;
     margin-left: 6.25%;
-    padding: 20px 26px;
+    padding: 6% 8%;
 }
 
  .step-text {
@@ -287,6 +286,10 @@ div.number span.text-number {
     padding-right: 6.25%;
     padding-bottom: 21.875%;
     margin: 0px;
+ }
+
+ div.step-text h3.step-name {
+    color: #e7e7e7;
  }
 
 .surface-footer {
@@ -328,11 +331,11 @@ div.number span.text-number {
     }
 
     .surface-cheer {
-        padding-left: 10.42%;
+        padding-left: 10%;
     }
     
     .surface-slogan {
-        padding-left: 26.7%;
+        padding-left: 22%;
         padding-top: 0px;
     }
 
@@ -344,18 +347,16 @@ div.number span.text-number {
     
     .button-link {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
         text-decoration: none;
+        width: 80%;
     }
     
     .store-button {
         background-color: #5e42b0;
-        width: 40.4%;
-        height: 4.375em;
+        height: 4.75rem;
         border: none;
-        border-radius: 16.73px 16.81px 18.19px 17.17px;
+        border-radius: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -368,12 +369,39 @@ div.number span.text-number {
     }
     
     .button-link:nth-child(even) {
-        margin-top: 3.75%;
+        margin-top: 0px;
     }
 
-    .footballer {
-        width: 497px;
-        height: 699px;
+    .article-name {
+        font-size: 5em;
+        margin-top: 11%;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 37%;
+    }
+    
+    .article-athlet {
+        display: absolute;
+    }
+
+    .article-text:nth-child(3n+1) {
+        background-color: #ffffff;
+    }
+
+    .text-name {
+        font-size: 2em;
+    }
+    
+    .text-number {
+        font-size: 1.125em;
+        margin-top: 3px;
+        margin-right: 10px;
+    }
+    
+    .text-number::after {
+        width: 19px;
+        height: 5px;
+        border-radius: 2px;
     }
 
     .surface-footer {
