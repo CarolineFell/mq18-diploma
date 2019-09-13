@@ -393,11 +393,11 @@ div.number span.text-number {
     }
 
     .footballer {
-        padding-right: 61%;
+        margin-left: -26%;
     }
 
     .basketballer {
-        padding-left: 40%;
+        margin-right: -31%;
     }
 
     picture.footballer ~ ol.article-text-list {
@@ -408,7 +408,7 @@ div.number span.text-number {
         margin-top: 0px;
     }
 
-    .article-name:nth-child(n+2) {
+    .article-name:nth-child(2n) {
         margin-left: 4.5%;
     }
 
@@ -427,7 +427,7 @@ div.number span.text-number {
         background-color: #ffffff;
     }
 
-    picture.basketballer ~ li.article-text {
+    picture.basketballer ~ ol.article-text-list li.article-text {
         padding-left: 4.5%;
         padding-right: 44%;
     }
@@ -438,7 +438,7 @@ div.number span.text-number {
     
     .text-number {
         font-size: 1.125em;
-        margin-top: 3px;
+        margin-top: 6px;
         margin-right: 10px;
     }
     
