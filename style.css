@@ -403,8 +403,16 @@ div.number span.text-number {
         padding-left: 40%;
     }
 
-    .article-header:nth-child(n+2) {
-        padding-right: 4.5%;
+    picture.footballer ~ ol.article-text-list {
+        margin-top: 0px;
+    }
+    
+    picture.basketballer ~ ol.article-text-list {
+        margin-top: 0px;
+    }
+
+    .article-name:nth-child(n+2) {
+        margin-left: 4.5%;
     }
 
     .article-text {
@@ -414,11 +422,15 @@ div.number span.text-number {
         padding-left: 38%;
     }
 
+    .article-text:first-child {
+        padding-top: 0px;
+    }
+
     .article-text:nth-child(3n+1) {
         background-color: #ffffff;
     }
 
-    img.basketballer ~ li.article-text {
+    picture.basketballer ~ li.article-text {
         padding-left: 4.5%;
         padding-right: 44%;
     }
