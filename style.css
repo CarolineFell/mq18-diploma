@@ -362,17 +362,20 @@ div.number span.text-number {
         display: inline-block;
         width: 40.5%;
         padding-left: 6.5%;
+        padding-right: 4%;
     }
     
+    .button-link:nth-child(even) {
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 6.5%;
+    }
+
     .store-button {
         height: 4.75rem;
         border-radius: 60px;
         font-size: 0.875em;
         width: 100%;
-    }
-    
-    .button-link:nth-child(even) {
-        margin-top: 0px;
     }
 
     .store-icon {
@@ -400,6 +403,10 @@ div.number span.text-number {
         padding-left: 40%;
     }
 
+    .article-header:nth-child(n+2) {
+        padding-right: 4.5%;
+    }
+
     .article-text {
         padding-top: 5.2%;
         padding-right: 4%;
@@ -411,7 +418,7 @@ div.number span.text-number {
         background-color: #ffffff;
     }
 
-    img.basketballer li.article-text {
+    img.basketballer ~ li.article-text {
         padding-left: 4.5%;
         padding-right: 44%;
     }
@@ -427,7 +434,7 @@ div.number span.text-number {
     }
     
     .text-number::after {
-        width: 19px;
+        width: 21px;
         height: 5px;
         border-radius: 2px;
     }
