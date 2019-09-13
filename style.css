@@ -54,7 +54,10 @@ body {
 .surface-container {
     position: relative;
     z-index: 1;
-    padding-bottom: 25%;
+    padding-bottom: 25%; /* height: 100vh;
+                            Здесь трудно не задать height: 100vh, потому что иначе вёрстка не адаптивна:
+                            если открыть её с другого устройства, например, Samsung Galaxy или iPhone,
+                            то header не занимает весь экран, как должно быть*/
 }
 
 .surface-logo {
@@ -217,6 +220,11 @@ li.growth span.text-number {
     margin: 0px;
 }
 
+.text-container {
+    padding: 0px;
+    padding-top: 6.25%;
+}
+
 .text-title {
     display: flex;
 }
@@ -259,6 +267,7 @@ li.article-text:nth-child(n+3) span.text-number::after {
     font-size: 1.86em;
     text-transform: uppercase;
     color: #c1c1c1;
+    margin: 0px;
 }
 
 div.step-container span.text-number::after {
@@ -282,6 +291,7 @@ div.number span.text-number {
 }
 
  .step-text {
+    padding-top: 9%;
     padding-left: 6.25%;
     padding-right: 6.25%;
     padding-bottom: 21.875%;
@@ -321,6 +331,10 @@ div.number span.text-number {
         background-image: url("images/football_1280.jpg");
     }
 
+    .surface-container {
+        padding-bottom: 11%;
+    }
+
     .surface-logo-link {
         width: 26%;
     }
@@ -336,40 +350,34 @@ div.number span.text-number {
     
     .surface-slogan {
         padding-left: 22%;
+        padding-right: 10%;
         padding-top: 0px;
     }
 
     .store-buttons {
         padding-top: 40%;
-        display: flex;
-        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
     }
     
     .button-link {
-        display: flex;
-        justify-content: space-between;
-        text-decoration: none;
         width: 80%;
     }
     
     .store-button {
-        background-color: #5e42b0;
         height: 4.75rem;
-        border: none;
         border-radius: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-        font-family: OpenSans-Light;
-        color: #ffffff;
         font-size: 0.875em;
-        text-transform: uppercase;
-        text-align: left;
+        width: 100%;
     }
     
     .button-link:nth-child(even) {
         margin-top: 0px;
+    }
+
+    .store-icon {
+        width: 36px;
+        height: 42px;
     }
 
     .article-name {
@@ -381,11 +389,31 @@ div.number span.text-number {
     }
     
     .article-athlet {
-        display: absolute;
+        position: absolute;
+    }
+
+    .footballer {
+        padding-right: 61%;
+    }
+
+    .basketballer {
+        padding-left: 40%;
+    }
+
+    .article-text {
+        padding-top: 5.2%;
+        padding-right: 4%;
+        padding-bottom: 5.2%;
+        padding-left: 38%;
     }
 
     .article-text:nth-child(3n+1) {
         background-color: #ffffff;
+    }
+
+    img.basketballer li.article-text {
+        padding-left: 4.5%;
+        padding-right: 44%;
     }
 
     .text-name {
