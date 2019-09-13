@@ -54,10 +54,7 @@ body {
 .surface-container {
     position: relative;
     z-index: 1;
-    padding-bottom: 25%; /* height: 100vh;
-                            Здесь трудно не задать height: 100vh, потому что иначе вёрстка не адаптивна:
-                            если открыть её с другого устройства, например, Samsung Galaxy или iPhone,
-                            то header не занимает весь экран, как должно быть*/
+    padding-bottom: 25%;
 }
 
 .surface-logo {
