@@ -54,7 +54,7 @@ body {
 .surface-container {
     position: relative;
     z-index: 1;
-    height: 100vh;
+    padding-bottom: 25%;
 }
 
 .surface-logo {
@@ -73,7 +73,7 @@ body {
     font-family: OpenSans-Bold, Tahoma, sans-serif;
     text-transform: uppercase;
     color: #ffffff;
-    padding-top: 40.625%;
+    padding-top: 33%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -88,7 +88,7 @@ body {
 }
 
 .store-buttons {
-    padding-top: 26.875%;
+    padding-top: 22%;
 }
 
 .button-link {
@@ -152,18 +152,10 @@ body {
 }
 
 .article-athlet {
+    display: flex;
+    margin: 0 auto;
     position: relative;
     z-index: 1;
-}
-
-.footballer {
-    width: 60%;
-    height: 87.8%;
-}
-
-.basketballer {
-    width: 94.375%;
-    height: 77.5%;
 }
 
 .article-text-list {
@@ -257,28 +249,8 @@ li.article-text:nth-child(n+3) span.text-number::after {
 }
 
 .step-image {
-    min-height: 21rem;
-}
-
-.active {
-    background-image: url("images/be-active_640.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-.contact {
-    background-image: url("images/find-contact_640.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-.work {
-    background-image: url("images/work-it_640.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    display: flex;
+    margin: 0 auto;
 }
 
 .step-name {
@@ -304,6 +276,8 @@ div.number span.text-number {
     background-color: #5e42b0;
     margin-top: -17.8%;
     margin-left: 6.25%;
+    position: relative;
+    z-index: 1;
 }
 
  .step-text {
@@ -343,11 +317,12 @@ div.number span.text-number {
     }
 
     .surface-logo-link {
-        width: 26.7%;
+        width: 26%;
     }
 
     .surface-title {
         font-size: 4em;
+        padding-top: 23%;
     }
 
     .surface-cheer {
@@ -356,6 +331,7 @@ div.number span.text-number {
     
     .surface-slogan {
         padding-left: 26.7%;
+        padding-top: 0px;
     }
 
     .store-buttons {
@@ -393,16 +369,9 @@ div.number span.text-number {
         margin-top: 3.75%;
     }
 
-    .active {
-        background-image: url("images/be-active_960.jpg");
-    }
-
-    .contact {
-        background-image: url("images/find-contact_960.jpg");
-    }
-
-    .work {
-        background-image: url("images/work-it_960.jpg")
+    .footballer {
+        width: 497px;
+        height: 699px;
     }
 
     .surface-footer {
@@ -413,18 +382,6 @@ div.number span.text-number {
 @media (min-width: 1279px) {
     .surface-header {
         background-image: url("images/football_1920.jpg");
-    }
-
-    .active {
-        background-image: url("images/be-1024.jpg");
-    }
-
-    .contact {
-        background-image: url("images/find-contact_1024.jpg");
-    }
-
-    .work {
-        background-image: url("images/work-it_1024.jpg")
     }
 
     .surface-footer {
