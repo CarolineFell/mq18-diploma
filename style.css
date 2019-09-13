@@ -217,7 +217,12 @@ li.growth span.text-number {
     margin: 0px;
 }
 
+.text-title {
+    margin: 0px;
+}
+
 .text-container {
+    margin: 0px;
     padding: 0px;
     padding-top: 6.25%;
 }
@@ -279,15 +284,16 @@ div.number span.text-number {
 .number {
     box-sizing: border-box;
     position: absolute;
-    width: 4.66rem;
-    height: 4.66rem;
+    width: 70px;
+    height: 70px;
     background-color: #5e42b0;
     margin-top: -17.8%;
     margin-left: 6.25%;
-    padding: 6% 8%;
+    padding: 25px;
 }
 
  .step-text {
+    font-size: 1.1em;
     padding-top: 9%;
     padding-left: 6.25%;
     padding-right: 6.25%;
@@ -382,7 +388,7 @@ div.number span.text-number {
 
     .article-name {
         font-size: 5em;
-        margin-top: 11%;
+        margin-top: 8%;
         margin-right: 0px;
         margin-bottom: 0px;
         margin-left: 37%;
@@ -393,11 +399,11 @@ div.number span.text-number {
     }
 
     .footballer {
-        margin-left: -26%;
+        margin-left: -21%;
     }
 
     .basketballer {
-        margin-right: -31%;
+        margin-left: 70%;
     }
 
     picture.footballer ~ ol.article-text-list {
@@ -408,7 +414,7 @@ div.number span.text-number {
         margin-top: 0px;
     }
 
-    .article-name:nth-child(2n) {
+    header.article-header:nth-child(2n) h2.article-name {
         margin-left: 4.5%;
     }
 
@@ -425,6 +431,10 @@ div.number span.text-number {
 
     .article-text:nth-child(3n+1) {
         background-color: #ffffff;
+    }
+
+    .text-container {
+        padding-top: 5%;
     }
 
     picture.basketballer ~ ol.article-text-list li.article-text {
@@ -446,6 +456,22 @@ div.number span.text-number {
         width: 21px;
         height: 5px;
         border-radius: 2px;
+    }
+
+    .number {
+        width: 115px;
+        height: 115px;
+        margin-top: -10%;
+        margin-left: 4.3%;
+        padding: 42px;
+    }
+
+    .step-name {
+        font-size: 5em;
+    }
+
+    .step-text {
+        font-size: 1.5em;
     }
 
     .surface-footer {
