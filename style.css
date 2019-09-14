@@ -352,7 +352,10 @@ div.number span.text-number {
 .surface-footer-logo {
     width: 55px;
     height: 45px;
-    background-color: #6d4ec9;
+    background-image: -webkit-linear-gradient(to bottom, #7c58de, #493a8d);
+    background-image: -moz-linear-gradient(to bottom, #7c58de, #493a8d);
+    background-image: -o-linear-gradient(to bottom, #7c58de, #493a8d);
+    background-image: -webkit-linear-gradient(to bottom, #7c58de, #493a8d);
     border-radius: 15px;
     display: flex;
     margin: 0 auto;
@@ -397,9 +400,6 @@ footer.surface-footer div.store-buttons {
 }
 
 footer.surface-footer a.surface-logo-link {
-    width: 41.56%;
-    display: flex;
-    margin: 0 auto;
     padding-top: 25%; 
 }
 
@@ -436,20 +436,19 @@ footer.surface-footer a.surface-logo-link {
     }
 
     .store-buttons {
-        padding-top: 40%;
+        padding-top: 20%;
+        display: flex;
+        justify-content: center;
     }
     
     .button-link {
-        display: inline-block;
         width: 310px;
-        padding-left: 6.5%;
-        padding-right: 4%;
+        padding: 0px;
     }
     
     .button-link:nth-child(even) {
         margin-top: 0px;
-        padding-left: 0px;
-        padding-right: 6.5%;
+        padding-left: 30px;
     }
 
     .store-button {
@@ -565,6 +564,34 @@ footer.surface-footer a.surface-logo-link {
 
     .surface-footer {
         background-image: url("images/game_1280.jpg");
+    }
+    
+    .footer-container {
+        padding-bottom: 10%;
+        padding-top: 17%;
+    }
+    
+    .surface-footer-logo {
+        width: 130px;
+        height: 137px;
+        border-radius: 30px;
+    }
+    
+    .footer-title {
+        font-size: 5em;
+        padding-top: 9.7%;
+    }
+    
+    .footer-cheer {
+        font-size: 2.25em;
+    }
+    
+    footer.surface-footer div.store-buttons {
+        padding-top: 37%;
+    }
+
+    footer.surface-footer a.surface-logo-link {
+        padding-top: 6.5%; 
     }
 }
 
