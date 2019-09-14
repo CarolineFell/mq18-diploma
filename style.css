@@ -327,19 +327,24 @@ div.number span.text-number {
     background-position: center center;
     background-size: cover;
     background-color: #0a0e34;
-    height: 100vh;
     position: relative;
+    height: auto;
 }
 
 .surface-footer::after {
     content: "";
     position: absolute;
-    top: 590px;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     background-color: #0a0e34;
     opacity: 0.9;
+}
+
+.surface-logo-link {
+    padding-top: 0px;
+    justify-content: end; 
 }
 
 @media (min-width: 640px) {
@@ -420,7 +425,7 @@ div.number span.text-number {
         margin-top: -12%;
     }
 
-    .basketballer {
+    .article-athlet:nth-child(2n) {
         margin-left: 70%;
     }
 
@@ -444,7 +449,7 @@ div.number span.text-number {
     }
 
     .article-text:first-child {
-        padding-top: 0px;
+        padding-top: 5%;
     }
 
     .article-text:nth-child(3n+1) {
@@ -455,7 +460,7 @@ div.number span.text-number {
         padding-top: 5%;
     }
 
-    picture.basketballer ~ li.article-text {
+    div.basketballer li.article-text {
         padding-left: 4.5%;
         padding-right: 44%;
     }
