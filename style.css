@@ -276,6 +276,10 @@ li.article-text:nth-child(n+3) span.text-number::after {
     text-decoration: none;
 }
 
+.step-name-link:hover {
+    border: 0.5px dashed #8f7bc8;
+}
+
 .step-name {
     font-family: OpenSans-Bold, Tahoma, sans-serif;
     font-size: 1.86em;
@@ -451,7 +455,7 @@ div.number span.text-number {
         padding-top: 5%;
     }
 
-    picture.basketballer ~ ol.article-text-list li.article-text {
+    ol.a.basketballer li.article-text {
         padding-left: 4.5%;
         padding-right: 44%;
     }
@@ -467,6 +471,12 @@ div.number span.text-number {
     }
     
     .text-number::after {
+        width: 21px;
+        height: 5px;
+        border-radius: 2px;
+    }
+
+    li.article-text:nth-child(n+3) span.text-number::after {
         width: 21px;
         height: 5px;
         border-radius: 2px;
@@ -500,6 +510,146 @@ div.number span.text-number {
 @media (min-width: 1279px) {
     .surface-header {
         background-image: url("images/football_1920.jpg");
+    }
+
+    .surface-container {
+        padding-bottom: 5.625%;
+    }
+
+    .surface-logo-link {
+        width: 10%;
+    }
+
+    .surface-title {
+        font-size: 5.625em;
+        padding-top: 15%;
+    }
+
+    .surface-cheer {
+        padding-left: 10%;
+    }
+    
+    .surface-slogan {
+        padding-left: 33%;
+        padding-right: 10%;
+    }
+
+    .store-buttons {
+        padding-top: 11.5%;
+    }
+    
+    .button-link {
+        width: 16%;
+        padding-left: 32%;
+        padding-right: 2.6%;
+    }
+    
+    .button-link:nth-child(even) {
+        padding-right: 32%;
+    }
+
+    .store-icon {
+        width: 42px;
+        height: 48px;
+    }
+/**/
+    .article-name {
+        font-size: 5em;
+        margin-top: 8%;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 37%;
+    }
+    
+    .article-athlet {
+        position: absolute;
+    }
+
+    .footballer {
+        margin-left: -21%;
+        margin-top: -12%;
+    }
+
+    .basketballer {
+        margin-left: 70%;
+    }
+
+    picture.footballer ~ ol.article-text-list {
+        margin-top: 0px;
+    }
+    
+    picture.basketballer ~ ol.article-text-list {
+        margin-top: 0px;
+    }
+
+    header.article-header:nth-child(2n) h2.article-name {
+        margin-left: 4.5%;
+    }
+
+    .article-text {
+        padding-top: 5.2%;
+        padding-right: 4%;
+        padding-bottom: 5.2%;
+        padding-left: 38%;
+    }
+
+    .article-text:first-child {
+        padding-top: 0px;
+    }
+
+    .article-text:nth-child(3n+1) {
+        background-color: #ffffff;
+    }
+
+    .text-container {
+        padding-top: 5%;
+    }
+
+    ol.a.basketballer li.article-text {
+        padding-left: 4.5%;
+        padding-right: 44%;
+    }
+
+    .text-name {
+        font-size: 2em;
+    }
+    
+    .text-number {
+        font-size: 1.125em;
+        margin-top: 6px;
+        margin-right: 10px;
+    }
+    
+    .text-number::after {
+        width: 21px;
+        height: 5px;
+        border-radius: 2px;
+    }
+
+    li.article-text:nth-child(n+3) span.text-number::after {
+        width: 21px;
+        height: 5px;
+        border-radius: 2px;
+    }
+
+    .number {
+        width: 115px;
+        height: 115px;
+        margin-top: -80px;
+        margin-left: 4.3%;
+        padding-left: 46px;
+        padding-top: 42px;
+    }
+
+    .step-name {
+        font-size: 3.3em;
+    }
+
+    .step-text {
+        font-size: 1.5em;
+        padding-bottom: 14%;
+        padding-left: 4.3%;
+        padding-right: 4.5%;
     }
 
     .surface-footer {
