@@ -57,11 +57,7 @@ body {
 }
 
 .surface-logo {
-    width: 100%;
-}
-
-.surface-logo-link {
-    width: 41.56%;
+    width: 133px;
     display: flex;
     margin: 0 auto;
     padding-top: 9.375%; 
@@ -308,6 +304,10 @@ div.number span.text-number {
     padding-top: 21px;
 }
 
+.step-title {
+    margin: 0px;
+}
+
  .step-text {
     font-size: 1.1em;
     padding-top: 9%;
@@ -365,7 +365,6 @@ div.number span.text-number {
 .footer-logo:focus {
     background-color: #412a6b;
     outline: none;
-    border: 1px groove #412a6b;
 }
 
 .footer-logo:hover {
@@ -416,8 +415,8 @@ footer.surface-footer a.surface-logo-link {
         padding-bottom: 11%;
     }
 
-    .surface-logo-link {
-        width: 26%;
+    .surface-logo {
+        width: 205px;
     }
 
     .surface-title {
@@ -442,7 +441,6 @@ footer.surface-footer a.surface-logo-link {
     }
     
     .button-link {
-        width: 310px;
         padding: 0px;
     }
     
@@ -452,10 +450,10 @@ footer.surface-footer a.surface-logo-link {
     }
 
     .store-button {
+        width: 310px;
         height: 77px;
         border-radius: 60px;
         font-size: 0.875em;
-        width: 100%;
     }
 
     .store-icon {
@@ -478,10 +476,6 @@ footer.surface-footer a.surface-logo-link {
     .footballer {
         margin-left: -21%;
         margin-top: -12%;
-    }
-
-    .article-athlet:nth-child(2n) {
-        margin-left: 70%;
     }
 
     picture.footballer ~ ol.article-text-list {
@@ -608,11 +602,11 @@ footer.surface-footer a.surface-logo-link {
         padding-bottom: 5.625%;
     }
 
-    .surface-logo-link {
-        width: 10%;
+    .surface-logo {
+        width: 191px;
         padding-top: 2%;
     }
-
+/**/
     .surface-title {
         font-size: 4.5em;
         padding-top: 15%;
@@ -628,21 +622,12 @@ footer.surface-footer a.surface-logo-link {
     }
 
     .store-buttons {
-        padding-top: 11.5%;
-    }
-    
-    .button-link {
-        width: 310px;
-        padding-left: 32%;
-        padding-right: 2.6%;
+        padding-top: 17%;
     }
 
     .store-button {
         height: 80px;
-    }
-    
-    .button-link:nth-child(even) {
-        padding-right: 32%;
+        font-size: 0.7em;
     }
 
     .store-icon {
@@ -651,11 +636,8 @@ footer.surface-footer a.surface-logo-link {
     }
 
     .article-name {
-        font-size: 5em;
-        margin-top: 8%;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 37%;
+        font-size: 4em;
+        margin-left: 78%;
     }
     
     .article-athlet {
@@ -663,48 +645,31 @@ footer.surface-footer a.surface-logo-link {
     }
 
     .footballer {
-        margin-left: -21%;
-        margin-top: -12%;
+        margin-left: 30%;
     }
 
     .article-athlet:nth-child(2n) {
-        padding-left: 70%;
-    }
-
-    picture.footballer ~ ol.article-text-list {
-        margin-top: 0px;
-    }
-    
-    picture.basketballer ~ ol.article-text-list {
-        margin-top: 0px;
+        margin-left: 63%;
     }
 
     div.basketballer h2.article-name {
-        margin-left: 4.5%;
+        margin-left: 15%;
     }
 
     .article-text {
-        padding-top: 5.2%;
-        padding-right: 4%;
-        padding-bottom: 5.2%;
-        padding-left: 38%;
+        padding-top: 4.7%;
+        padding-right: 15%;
+        padding-bottom: 4.7%;
+        padding-left: 79%;
     }
 
     .article-text:first-child {
-        padding-top: 0px;
-    }
-
-    .article-text:nth-child(3n+1) {
-        background-color: #ffffff;
-    }
-
-    .text-container {
-        padding-top: 5%;
+        padding-top: 8%;
     }
 
     div.basketballer li.article-text {
-        padding-left: 4.5%;
-        padding-right: 44%;
+        padding-left: 15%;
+        padding-right: 75%;
     }
 
     .text-name {
@@ -751,5 +716,33 @@ footer.surface-footer a.surface-logo-link {
 
     .surface-footer {
         background-image: url("images/game_1920.jpg");
+    }
+    
+    .footer-container {
+        padding-bottom: 10%;
+        padding-top: 17%;
+    }
+    
+    .surface-footer-logo {
+        width: 130px;
+        height: 137px;
+        border-radius: 30px;
+    }
+    
+    .footer-title {
+        font-size: 5em;
+        padding-top: 9.7%;
+    }
+    
+    .footer-cheer {
+        font-size: 2.25em;
+    }
+    
+    footer.surface-footer div.store-buttons {
+        padding-top: 37%;
+    }
+
+    footer.surface-footer a.surface-logo-link {
+        padding-top: 6.5%; 
     }
 }
