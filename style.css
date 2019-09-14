@@ -342,9 +342,55 @@ div.number span.text-number {
     opacity: 0.9;
 }
 
-.surface-logo-link {
+footer.surface-footer a.surface-logo-link {
     padding-top: 0px;
     justify-content: end; 
+}
+
+.footer-container {
+    position: relative;
+    z-index: 1;
+}
+
+.surface-footer-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-logo {
+    width: 23%;
+    height: 23%;
+    background-color: #6d4ec9;
+    border-radius: 12px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 31.25%; 
+}
+
+.footer-title {
+    font-size: 2.13em;
+    font-family: OpenSans-Bold, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 17%;
+}
+
+.footer-cheer {
+    font-size: 0.93em;
+    font-family: OpenSans-Bold, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: #9b8ec1;
+}
+
+footer.surface-footer div.store-buttons {
+    padding-top: 23%;
+}
+
+footer.surface-footer a.surface-logo-link {
+    width: 41.56%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 25%; 
 }
 
 @media (min-width: 640px) {
@@ -513,6 +559,10 @@ div.number span.text-number {
 }
 
 @media (min-width: 1280px) {
+    html {
+        font-size: 125%;
+    }
+
     .surface-header {
         background-image: url("images/football_1920.jpg");
     }
@@ -527,7 +577,7 @@ div.number span.text-number {
     }
 
     .surface-title {
-        font-size: 5.625em;
+        font-size: 4.5em;
         padding-top: 15%;
     }
 
