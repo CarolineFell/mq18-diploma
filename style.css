@@ -279,7 +279,7 @@ li.article-text:nth-child(n+3) span.text-number::after {
     font-family: OpenSans-Bold, Tahoma, sans-serif;
     font-size: 1.86em;
     text-transform: uppercase;
-    color: #c1c1c1;
+    color: #e7e7e7;
     margin: 0px;
 }
 
@@ -362,12 +362,12 @@ div.number span.text-number {
     padding: 12px 7px; 
 }
 
-.footer-logo:focus {
+.surface-footer-logo:focus {
     background-color: #412a6b;
     outline: none;
 }
 
-.footer-logo:hover {
+.surface-footer-logo:hover {
     background-color: #412a6b;
 }
 
@@ -516,6 +516,7 @@ footer.surface-footer a.surface-logo-link {
 
     .text-name {
         font-size: 2em;
+        color: #c1c1c1;
     }
     
     .text-number {
@@ -546,7 +547,7 @@ footer.surface-footer a.surface-logo-link {
     }
 
     .step-name {
-        font-size: 3.3em;
+        font-size: 2.8em;
     }
 
     .step-text {
@@ -677,8 +678,8 @@ footer.surface-footer a.surface-logo-link {
         flex-wrap: nowrap;
     }
 
-    .step-text:nth-child(even) {
-        order: 1;
+    .step-container:nth-child(even) {
+        flex-direction: row-reverse;
     }
 
     .text-name {
@@ -716,10 +717,6 @@ footer.surface-footer a.surface-logo-link {
         margin-right: 45.6%;
     }
 
-    .step-name {
-        font-size: 4em;
-    }
-
     .step-text {
         font-size: 1.2em;
         padding-top: 13.5%;
@@ -754,7 +751,7 @@ footer.surface-footer a.surface-logo-link {
         padding-top: 8%;
     }
 
-    footer.surface-footer a.surface-logo-link {
+    footer.surface-footer img.surface-logo {
         padding-top: 13%; 
     }
 }
