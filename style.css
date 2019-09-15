@@ -355,7 +355,7 @@ div.number span.text-number {
     background-image: -webkit-linear-gradient(to bottom, #7c58de, #493a8d);
     background-image: -moz-linear-gradient(to bottom, #7c58de, #493a8d);
     background-image: -o-linear-gradient(to bottom, #7c58de, #493a8d);
-    background-image: -webkit-linear-gradient(to bottom, #7c58de, #493a8d);
+    background-image: linear-gradient(to bottom, #7c58de, #493a8d);
     border-radius: 15px;
     display: flex;
     margin: 0 auto;
@@ -562,7 +562,7 @@ footer.surface-footer a.surface-logo-link {
     }
     
     .footer-container {
-        padding-bottom: 10%;
+        padding-bottom: 3%;
         padding-top: 17%;
     }
     
@@ -607,10 +607,10 @@ footer.surface-footer a.surface-logo-link {
         width: 191px;
         padding-top: 2%;
     }
-/**/
+
     .surface-title {
         font-size: 4.5em;
-        padding-top: 8%;
+        padding-top: 6%;
     }
 
     .surface-cheer {
@@ -623,7 +623,7 @@ footer.surface-footer a.surface-logo-link {
     }
 
     .store-buttons {
-        padding-top: 10%;
+        padding-top: 8%;
     }
 
     .store-button {
@@ -639,6 +639,7 @@ footer.surface-footer a.surface-logo-link {
     .article-name {
         font-size: 4em;
         margin-left: 52%;
+        margin-top: 5%;
     }
     
     .article-athlet {
@@ -665,7 +666,7 @@ footer.surface-footer a.surface-logo-link {
     }
 
     .article-text:first-child {
-        padding-top: 5%;
+        padding-top: 4%;
     }
 
     div.basketballer li.article-text {
@@ -678,7 +679,7 @@ footer.surface-footer a.surface-logo-link {
         flex-wrap: nowrap;
     }
 
-    .step-container:nth-child(even) {
+    .step-container:nth-child(2n) {
         flex-direction: row-reverse;
     }
 
@@ -730,12 +731,17 @@ footer.surface-footer a.surface-logo-link {
     }
     
     .footer-container {
-        padding-bottom: 10%;
+        padding-bottom: 3%;
         padding-top: 11.7%;
     }
     
     .logo-title-cheer {
         display: flex;
+        justify-content: center;
+    }
+
+    .footer-logo {
+        margin-right: 25px;
     }
     
     .footer-title {
