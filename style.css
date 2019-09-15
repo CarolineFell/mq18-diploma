@@ -609,7 +609,7 @@ footer.surface-footer a.surface-logo-link {
 /**/
     .surface-title {
         font-size: 4.5em;
-        padding-top: 15%;
+        padding-top: 8%;
     }
 
     .surface-cheer {
@@ -622,7 +622,7 @@ footer.surface-footer a.surface-logo-link {
     }
 
     .store-buttons {
-        padding-top: 17%;
+        padding-top: 10%;
     }
 
     .store-button {
@@ -637,7 +637,7 @@ footer.surface-footer a.surface-logo-link {
 
     .article-name {
         font-size: 4em;
-        margin-left: 78%;
+        margin-left: 52%;
     }
     
     .article-athlet {
@@ -657,19 +657,28 @@ footer.surface-footer a.surface-logo-link {
     }
 
     .article-text {
-        padding-top: 4.7%;
-        padding-right: 15%;
-        padding-bottom: 4.7%;
-        padding-left: 79%;
+        padding-top: 3%;
+        padding-right: 10%;
+        padding-bottom: 3%;
+        padding-left: 52%;
     }
 
     .article-text:first-child {
-        padding-top: 8%;
+        padding-top: 5%;
     }
 
     div.basketballer li.article-text {
-        padding-left: 15%;
-        padding-right: 75%;
+        padding-left: 10%;
+        padding-right: 52%;
+    }
+
+    .step-container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .step-text:nth-child(even) {
+        order: 1;
     }
 
     .text-name {
@@ -683,35 +692,40 @@ footer.surface-footer a.surface-logo-link {
     }
     
     .text-number::after {
-        width: 21px;
+        width: 24px;
         height: 5px;
         border-radius: 2px;
     }
 
     li.article-text:nth-child(n+3) span.text-number::after {
-        width: 21px;
+        width: 24px;
         height: 5px;
         border-radius: 2px;
     }
 
     .number {
-        width: 115px;
-        height: 115px;
-        margin-top: -80px;
-        margin-left: 4.3%;
-        padding-left: 46px;
-        padding-top: 42px;
+        width: 165px;
+        height: 155px;
+        margin-top: -363px;
+        margin-left: 45.6%;
+        padding-left: 70px;
+        padding-top: 60px;
+    }
+
+    .number:nth-child(even) {
+        margin-right: 45.6%;
     }
 
     .step-name {
-        font-size: 3.3em;
+        font-size: 4em;
     }
 
     .step-text {
-        font-size: 1.5em;
-        padding-bottom: 14%;
-        padding-left: 4.3%;
-        padding-right: 4.5%;
+        font-size: 1.2em;
+        padding-top: 13.5%;
+        padding-bottom: 14.5%;
+        padding-left: 10%;
+        padding-right: 6.7%;
     }
 
     .surface-footer {
@@ -720,29 +734,27 @@ footer.surface-footer a.surface-logo-link {
     
     .footer-container {
         padding-bottom: 10%;
-        padding-top: 17%;
+        padding-top: 11.7%;
     }
     
-    .surface-footer-logo {
-        width: 130px;
-        height: 137px;
-        border-radius: 30px;
+    .logo-title-cheer {
+        display: flex;
     }
     
     .footer-title {
-        font-size: 5em;
-        padding-top: 9.7%;
+        font-size: 4em;
+        padding-top: 0px;
     }
     
     .footer-cheer {
-        font-size: 2.25em;
+        font-size: 1.5em;
     }
     
     footer.surface-footer div.store-buttons {
-        padding-top: 37%;
+        padding-top: 8%;
     }
 
     footer.surface-footer a.surface-logo-link {
-        padding-top: 6.5%; 
+        padding-top: 13%; 
     }
 }
