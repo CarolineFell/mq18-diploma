@@ -757,7 +757,7 @@ footer.surface-footer img.surface-logo {
     }
 
     .step-image {
-        width: 120%;
+        width: 114%%;
     }
 
     .number {
@@ -769,7 +769,7 @@ footer.surface-footer img.surface-logo {
         padding-top: 60px;
     }
 
-    .number:nth-child(2n+2) {
+    div.step-container:nth-child(2n+2) div.number {
         margin-left: -4.5%;
     }
 
@@ -787,6 +787,11 @@ footer.surface-footer img.surface-logo {
 
     .text-container {
         padding-left: 25%;
+    }
+
+    div.step-container:nth-child(2n+2) p.text-container {
+        padding-left: 0px;
+        padding-right: 25%;
     }
 
     .surface-footer {
