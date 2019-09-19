@@ -477,12 +477,12 @@ footer.surface-footer img.surface-logo {
         margin: 0px;
     }
 
-    img.footballer {
+    .footballer {
         margin-left: -21%;
         margin-top: -9%;
     }
 
-    img.basketballer {
+    .basketballer {
         margin-left: calc(100vw - 435px);
         margin-top: -13%;
     }
@@ -599,6 +599,12 @@ footer.surface-footer img.surface-logo {
     }
 }
 
+@media (min-width: 950px) and (max-width: 1279px) {
+    .footballer {
+        margin-left: -15%;
+    }
+}
+
 @media (min-width: 1280px) {
     html {
         font-size: 125%;
@@ -656,7 +662,7 @@ footer.surface-footer img.surface-logo {
     }
 
     .footballer {
-        margin-left: 8%;
+        margin-left: 5%;
     }
 
     .article-athlet:nth-child(2n) {
