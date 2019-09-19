@@ -775,14 +775,16 @@ footer.surface-footer img.surface-logo {
 
     .step-text {
         font-size: 1.2em;
-        padding-top: 13.5%;
-        padding-bottom: 5%;
         padding-left: 10%;
         padding-right: 6.7%;
     }
 
     div.step-container p.text-container {
         padding-left: 0px;
+    }
+
+    div.step-container div.step-text {
+        padding-left: 3%;
     }
 
     div.step-container:nth-child(2n+2) h3.step-title {
