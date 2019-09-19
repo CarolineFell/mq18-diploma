@@ -402,7 +402,11 @@ footer.surface-footer a.surface-logo-link {
     padding-top: 25%; 
 }
 
-@media (min-width: 640px) {
+footer.surface-footer img.surface-logo {
+    padding-top: 18%;
+}
+
+@media (min-width: 768px) {
     html {
         font-size: 100%;
     }
@@ -471,11 +475,17 @@ footer.surface-footer a.surface-logo-link {
     
     .article-athlet {
         position: absolute;
+        margin: 0px;
     }
 
     .footballer {
         margin-left: -21%;
         margin-top: -12%;
+    }
+
+    .basketballer {
+        margin-left: calc(100vw - 435px);
+        margin-top: -13%;
     }
 
     picture.footballer ~ ol.article-text-list {
