@@ -482,7 +482,7 @@ footer.surface-footer img.surface-logo {
         margin-top: -9%;
     }
 
-    .basketballer {
+    picture.basketballer img.basketballer {
         margin-left: calc(100vw - 435px);
         margin-top: -13%;
     }
@@ -599,15 +599,47 @@ footer.surface-footer img.surface-logo {
     }
 }
 
-@media (min-width: 950px) and (max-width: 1279px) {
+@media (min-width: 800px) and (max-width: 900px) {
     .footballer {
-        margin-left: -15%;
+        margin-left: -18%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1000px) {
+    .footballer {
+        margin-left: -14%;
+    }
+
+    picture.basketballer img.basketballer {
+        margin-top: -12%;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .footballer {
+        margin-left: -8%;
+    }
+
+    picture.basketballer img.basketballer {
+        margin-top: -10%;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1279px) {
+    .footballer {
+        margin-left: -3%;
+        padding-top: -7%;
+    }
+
+    picture.basketballer img.basketballer {
+        margin-top: -8%;
     }
 }
 
 @media (min-width: 1280px) {
     html {
         font-size: 125%;
+        padding-top: -6%;
     }
 
     .surface-header {
@@ -782,7 +814,7 @@ footer.surface-footer img.surface-logo {
         margin-left: 13%;
     }
 
-    .basketballer {
+    picture.basketballer img.basketballer {
         margin-left: 40%;
         margin-top: -11%;
     }
@@ -794,7 +826,7 @@ footer.surface-footer img.surface-logo {
         margin-top: -5%;
     }
 
-    .basketballer {
+    picture.basketballer img.basketballer {
         margin-top: -10%;
     }
 }
