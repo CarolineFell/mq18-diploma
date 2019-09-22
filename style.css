@@ -229,8 +229,6 @@ li.growth span.text-number {
 .text-number {
     font-size: 0.94em;
     font-family: OpenSans-Bold, Tahoma, sans-serif;
-    margin-top: 3px;
-    margin-right: 10px;
 }
 
 .text-number::after {
@@ -266,6 +264,38 @@ li.article-text:nth-child(n+3) span.text-number::after {
     width: 100%;
 }
 
+div.step-container span.text-number::after {
+    background-color: #8f7bc8;
+    margin: 0px;
+}
+
+.picture-number {
+    position: relative;
+}
+
+div.number span.text-number {
+    color: #ffffff;
+}
+
+.number {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #5e42b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.step-title {
+    margin: 0px;
+}
+
 .step-name-link {
     text-decoration: none;
 }
@@ -282,37 +312,12 @@ li.article-text:nth-child(n+3) span.text-number::after {
     margin: 0px;
 }
 
-div.step-container span.text-number::after {
-    background-color: #8f7bc8;
-    margin: 0px;
-}
-
-div.number span.text-number {
-    color: #ffffff;
-}
-
-.number {
-    box-sizing: border-box;
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-color: #5e42b0;
-    margin-top: -60px;
-    margin-left: 6.25%;
-    padding-left: 26px;
-    padding-top: 21px;
-}
-
-.step-title {
-    margin: 0px;
-}
-
 .step-text {
     font-size: 1.1em;
-    padding-top: 9%;
-    padding-left: 6.25%;
-    padding-right: 6.25%;
-    padding-bottom: 21.875%;
+    padding-top: 9vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 21vw;
     margin: 0px;
  }
 
@@ -530,8 +535,6 @@ footer.surface-footer img.surface-logo {
     
     .text-number {
         font-size: 1.125em;
-        margin-top: 6px;
-        margin-right: 10px;
     }
     
     .text-number::after {
@@ -549,10 +552,6 @@ footer.surface-footer img.surface-logo {
     .number {
         width: 115px;
         height: 115px;
-        margin-top: -80px;
-        margin-left: 4.3%;
-        padding-left: 46px;
-        padding-top: 42px;
     }
 
     .step-name {
@@ -561,9 +560,9 @@ footer.surface-footer img.surface-logo {
 
     .step-text {
         font-size: 1.5em;
-        padding-bottom: 14%;
-        padding-left: 4.3%;
-        padding-right: 4.5%;
+        padding-bottom: 14vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
     }
 
     .surface-footer {
@@ -740,8 +739,6 @@ footer.surface-footer img.surface-logo {
     
     .text-number {
         font-size: 1.125em;
-        margin-top: 6px;
-        margin-right: 10px;
     }
     
     .text-number::after {
@@ -763,10 +760,6 @@ footer.surface-footer img.surface-logo {
     .number {
         width: 165px;
         height: 155px;
-        margin-top: -25%;
-        margin-left: 45.5%;
-        padding-left: 70px;
-        padding-top: 60px;
     }
 
     div.step-container:nth-child(2n+2) div.number {
@@ -775,8 +768,8 @@ footer.surface-footer img.surface-logo {
 
     .step-text {
         font-size: 1.2em;
-        padding-left: 10%;
-        padding-right: 6.7%;
+        padding-left: 10vw;
+        padding-right: 6vw;
     }
 
     div.step-container p.text-container {
@@ -784,7 +777,7 @@ footer.surface-footer img.surface-logo {
     }
 
     div.step-container div.step-text {
-        padding-left: 3%;
+        padding-left: 8%;
     }
 
     div.step-container:nth-child(2n+2) h3.step-title {
