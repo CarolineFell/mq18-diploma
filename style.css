@@ -253,6 +253,7 @@ li.article-text:nth-child(n+3) span.text-number::after {
 
 .text-name-link {
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .text-name-link:hover {
@@ -767,13 +768,15 @@ footer.surface-footer img.surface-logo {
     }
 
     div.step-container:nth-child(2n+2) div.number {
-        margin-left: -4.5%;
+        right: none;
+        transform: translateX(-50%);
     }
 
     .step-text {
         font-size: 1.2em;
         padding-left: 10vw;
         padding-right: 6vw;
+        padding-bottom: 13vw;
     }
 
     div.step-container p.text-container {
@@ -824,7 +827,7 @@ footer.surface-footer img.surface-logo {
     }
 }
 
-@media (min-width: 1280px) and (max-width: 1749px) {
+@media (min-width: 1280px) {
     .footballer {
         margin-left: 13%;
     }
@@ -834,13 +837,21 @@ footer.surface-footer img.surface-logo {
     }
 }
 
-@media (min-width: 1344px) and (max-width: 1550px) {
+@media (min-width: 1330px) and (max-width: 1550px) {
+    .footballer {
+        margin-left: 13%;
+    }
+
     picture.basketballer img.basketballer {
         margin-top: -10%;
     }
 }
 
 @media (min-width: 1551px) and (max-width: 1749px) {
+    .footballer {
+        margin-left: 13%;
+    }
+
     picture.basketballer img.basketballer {
         margin-top: -9%;
     }
