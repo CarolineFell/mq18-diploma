@@ -286,10 +286,8 @@ div.number span.text-number {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translateX(50%);
+    margin-top: -8vw;
+    margin-left: 6vw;
 }
 
 .step-title {
@@ -314,7 +312,7 @@ div.number span.text-number {
 
 .step-text {
     font-size: 1.1em;
-    padding-top: 9vw;
+    padding-top: 13vw;
     padding-left: 6vw;
     padding-right: 6vw;
     padding-bottom: 21vw;
@@ -552,6 +550,7 @@ footer.surface-footer img.surface-logo {
     .number {
         width: 115px;
         height: 115px;
+        margin-top: -7vw;
     }
 
     .step-name {
@@ -610,7 +609,7 @@ footer.surface-footer img.surface-logo {
     }
 
     picture.basketballer img.basketballer {
-        margin-top: -12%;
+        margin-top: -8%;
     }
 }
 
@@ -620,7 +619,7 @@ footer.surface-footer img.surface-logo {
     }
 
     picture.basketballer img.basketballer {
-        margin-top: -10%;
+        margin-top: -4%;
     }
 }
 
@@ -760,6 +759,11 @@ footer.surface-footer img.surface-logo {
     .number {
         width: 165px;
         height: 155px;
+        margin-top: 0px;
+        margin-left: 0px;
+        top: 30%;
+        right: 0;
+        transform: translateX(50%);
     }
 
     div.step-container:nth-child(2n+2) div.number {
