@@ -762,21 +762,22 @@ footer.surface-footer img.surface-logo {
         height: 155px;
         margin-top: 0px;
         margin-left: 0px;
-        top: 30%;
+        top: 25%;
         right: 0;
         transform: translateX(50%);
     }
 
     div.step-container:nth-child(2n+2) div.number {
-        right: none;
+        right: 81%;
         transform: translateX(-50%);
     }
 
     .step-text {
         font-size: 1.2em;
+        padding-top: 11vw;
         padding-left: 10vw;
         padding-right: 6vw;
-        padding-bottom: 13vw;
+        padding-bottom: 5vw;
     }
 
     div.step-container p.text-container {
