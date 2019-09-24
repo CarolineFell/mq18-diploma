@@ -754,7 +754,11 @@ footer.surface-footer img.surface-logo {
     }
 
     .step-image {
-        width: 50vw;
+        width: auto;
+        max-width: 50vw;
+        max-height: 50vw;
+        height: 100%;
+        object-fit: cover;
     }
 
     .number {
@@ -768,7 +772,7 @@ footer.surface-footer img.surface-logo {
     }
 
     div.step-container:nth-child(2n+2) div.number {
-        right: 81%;
+        left: 0;
         transform: translateX(-50%);
     }
 
